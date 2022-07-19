@@ -1,9 +1,10 @@
 import Head from 'next/head'
+// import Image from 'next/image'
+
 import { useWeb3React } from '@web3-react/core'
 import { useCallback, useEffect } from 'react'
 import { connector } from '../config/web3'
 
-// import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
